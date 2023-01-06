@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    padding: 0 3vw 0 3vw;
+    z-index: 99;
+}
+
+.background-home1 {
+    background-image: url("../images/home-background.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-home {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    font-family: "Neue Machina";
+    font-weight: 700;
+}
+.logo-rosa {
+    color: #ff66c4;
+}
+
+.subtitle-home {
+    font-size: xx-large;
+    font-weight: 500;
+    color: white;
+    font-family: "PT Serif";
+    white-space: nowrap;
+}
+
+.button-home {
+    display: flex;
+    width: 220px;
+    height: 35px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: #ff66c4;
+}
+.btn-primary:hover {
+    background-color: #e93ea7;
+}
+
+.btn-transparent {
+    background-color: rgb(210, 201, 195, 0.5);
+}
+.btn-transparent:hover {
+    background-color: rgba(175, 170, 167, 0.5);
+}
+
+.cadastrar-button {
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff66c4;
+    font-size: medium;
+    font-weight: 400;
+    background-color: white;
+    border: solid 1px #ff66c4;
+}
+.cadastrar-button:hover {
+    color: white;
+    background-color: #e93ea7;
+}
