@@ -21,6 +21,9 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'conjuge_nome',
+        'data_cerimonia',
+        'hora_cerimonia'
     ];
 
     /**
@@ -41,4 +44,9 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function convidados()
+    {
+        return $this->hasMany(Convidado::class, 'users_id');
+    }
 }

@@ -91,3 +91,26 @@
     color: white;
     background-color: #e93ea7;
 }
+
+.sidebar {
+    display: block;
+}
+.separador-sidebar {
+    border-top: solid 1px gray;
+    padding-top: 1vh;
+    font-weight: 600;
+    color: rgb(59, 57, 57);
+}
+
+.dashboard-greeting {
+    font-size: x-large;
+}
+
+.painel-container {
+    width: 100%;
+}
+.painel-dashboard {
+    height: 140px;
+    width: 240px;
+    border-radius: 3px;
+}
