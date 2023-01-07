@@ -1,0 +1,1 @@
+import{j as a,F as e,a as r,H as o}from"./app-da48f46b.js";import t from"./Index-a264f6a7.js";import m from"./Background1-2e6bffd9.js";function d(){return a(e,{children:[r(o,{title:"Home"}),r(t,{}),r(m,{})]})}export{d as default};
